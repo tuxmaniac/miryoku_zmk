@@ -17,6 +17,11 @@
 
 #include <dt-bindings/zmk/mouse.h>
 
+&soft_off {
+    hold-time-ms = <2000>;
+    split-peripheral-off-on-press;
+};
+
 / {
   keymap {
     compatible = "zmk,keymap";
@@ -57,3 +62,5 @@ MIRYOKU_LAYER_LIST
 #else
   #include "miryoku_behaviors.dtsi"
 #endif
+
+#include "miryoku_kludge_game.dtsi"
