@@ -388,9 +388,9 @@ U_NP,              U_NP,              U_BTN3,            U_BTN1,            U_BT
 
 #define MIRYOKU_ALTERNATIVES_GAME \
 &kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
-&kp M,             &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
-&kp LALT,          &kp Z,             &kp X,             &kp C,             &kp V,             U_NA,              U_NA,              U_NA,              U_NA,              &u_to_U_BASE,      \
-U_NP,              U_NP,              U_LT(U_GAME2, ESC),&mt LCTRL E,       &mt LSHFT SPACE,   &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
+&kp SHIFT,         &kp A,             &kp S,             &kp D,             &kp F,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
+&kp LALT,          &kp Z,             &kp X,             &kp M,             &kp G,             U_NA,              U_NA,              U_NA,              U_NA,              &u_to_U_BASE,      \
+U_NP,              U_NP,              U_LT(U_GAME2, ESC),&kp LCTRL,         &kp SPACE,         &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_GAME2 \
 U_NA,              &kp MINUS,         &kp LS(UP),        &kp PLUS,          U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
