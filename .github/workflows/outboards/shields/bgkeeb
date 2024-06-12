@@ -1,4 +1,4 @@
-outboard_repository=ezxzeng/zmk-bgkeeb
+outboard_repository=tuxmaniac/zmk-bgkeeb
 outboard_ref=main
 outboard_from=config/boards/shields/bgkeeb
 outboard_to=boards/shields/bgkeeb
