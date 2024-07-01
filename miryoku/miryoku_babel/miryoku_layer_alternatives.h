@@ -394,6 +394,6 @@ U_NP,              U_NP,              U_LT(U_GAME2, ESC),&kp LCTRL,         &kp 
 
 #define MIRYOKU_ALTERNATIVES_GAME2 \
 U_NA,              &kp MINUS,         &kp LS(UP),        &kp PLUS,          &kp T,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
-U_NA,              &kp LS(LEFT),      &kp LS(DOWN),      &kp LS(RIGHT),     U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
+U_NA,              &kp LS(LEFT),      &kp LS(DOWN),      &kp LS(RIGHT),     &kp LC(RBKT),      U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
 U_UND,             U_CUT,             U_CPY,             U_PST,             U_RDO,             U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NA,              U_NP,              U_NP
