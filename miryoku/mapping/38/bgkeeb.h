@@ -1,7 +1,8 @@
 #if !defined (MIRYOKU_LAYOUTMAPPING_BGKEEB)
 
 #define XXX &none
-#define PLP &kp K_PLAY_PAUSE
+#define PLP &kp C_PP
+#define LCK &kp C_AL_LOCK
 
 #define MIRYOKU_LAYOUTMAPPING_BGKEEB( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
@@ -12,7 +13,7 @@
 K00  K01  K02  K03  K04       K05  K06  K07  K08  K09 \
 K10  K11  K12  K13  K14       K15  K16  K17  K18  K19 \
 K20  K21  K22  K23  K24       K25  K26  K27  K28  K29 \
-     PLP  K32  K33  K34       K35  K36  K37  XXX
+     PLP  K32  K33  K34       K35  K36  K37  LCK
 
 #endif
 
